@@ -8,7 +8,7 @@
 
 - #### Run as Maven build
 
-![image-20210817102848055](C:/Users/LG/AppData/Roaming/Typora/typora-user-images/image-20210817102848055.png)
+![image-20210817102848055](README.assets/image-20210817102848055.png)
 
 build success 후!!
 
@@ -16,7 +16,7 @@ build success 후!!
 
 target 파일에 들어가서 확인하기 jar
 
-![image-20210817104321568](C:/Users/LG/AppData/Roaming/Typora/typora-user-images/image-20210817104321568.png)
+![image-20210817104321568](README.assets/image-20210817104321568.png)
 
 
 
@@ -28,7 +28,7 @@ target 파일에 들어가서 확인하기 jar
 
 
 
-![image-20210817104704585](C:/Users/LG/AppData/Roaming/Typora/typora-user-images/image-20210817104704585.png)
+![image-20210817104704585](README.assets/image-20210817104704585.png)
 
 
 
@@ -36,7 +36,7 @@ target 파일에 들어가서 확인하기 jar
 
 
 
-![image-20210817104723035](C:/Users/LG/AppData/Roaming/Typora/typora-user-images/image-20210817104723035.png)
+![image-20210817104723035](README.assets/image-20210817104723035.png)
 
 
 
@@ -51,4 +51,36 @@ target 파일에 들어가서 확인하기 jar
 ## 2. git hub에 올려보기
 
 
+
+
+
+## 3. AWS
+
+### (1) aws 계정 만드릭
+
+### (2) 인스턴스 누르기
+
+![image-20210817113653253](README.assets/image-20210817113653253-1629168394993.png)
+
+
+
+#### (1) ubunto Server 선택
+
+![image-20210817113733418](README.assets/image-20210817113733418-1629168397428.png)
+
+#### (2) 프리티어 부분을 선택
+
+##### 1) 시작하기 
+
+![image-20210817113829476](README.assets/image-20210817113829476-1629168399790.png)
+
+##### 2) 접근하기 위한 key 설정 필요
+
+![image-20210817113902054](README.assets/image-20210817113902054-1629168402095.png)
+
+- 외부로 노출되면 안됨 (파일을 주면 안됨)
+- 기존 키 페어선택 -> 새 키 페어 선택
+- 키 페어 이름 설정 (원하는 이름 아무거나)
+- 키 페어 다운로드 (누구에게도 공유하면 안됨)
+- 인스턴스 시작!!!
 
