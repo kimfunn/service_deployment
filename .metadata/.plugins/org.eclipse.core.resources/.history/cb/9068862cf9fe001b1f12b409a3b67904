@@ -1,0 +1,18 @@
+package multi.com.f.controller;
+
+import java.util.Date;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+	
+	@RequestMapping(value="/")
+	public String hello() {
+		System.out.println("HelloController()"+new Date());
+		
+		return "헬로";
+	}
+}

@@ -1,0 +1,5 @@
+package multi.com.f.dto;
+
+public class MemberDto {
+
+}
